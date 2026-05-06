@@ -48,12 +48,12 @@ export default function Home() {
 
     const submit = async () => {
         if (!name || !affiliation) {
-            alert("소속과 이름 입력");
+            alert("Please enter your id");
             return;
         }
 
         if (Object.keys(answers).length !== 10) {
-            alert("모든 문항 선택");
+            alert("Please answer all questions");
             return;
         }
 
