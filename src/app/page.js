@@ -4,7 +4,7 @@ import { useState } from "react";
 function Question({ q, v1, v2, v3, v4, answers, hovered, select, hover }) {
     return (
         <div className="q-card">
-            <h2>Q{q}. 어느 영상에서 입 모양과 음성이 가장 어긋나 보이나요?</h2>
+            <h2>Q{q}. Which video shows the greatest mismatch between lip movements and audio?</h2>
 
             <div className="video-grid">
                 <div className={`video-box ${answers[q] === 1 || hovered[q] === 1 ? "active" : ""}`}>
@@ -79,11 +79,11 @@ export default function Home() {
 
                     <div className="done-icon">🎉</div>
 
-                    <h1>제출이 완료되었습니다</h1>
+                    <h1>Your submission has been completed</h1>
 
                     <p>
-                        응답이 정상적으로 저장되었습니다.<br/>
-                        설문에 참여해주셔서 감사합니다.
+                        Your responses have been successfully saved.<br/>
+                        Thank you for participating in the survey.
                     </p>
 
                 </div>
@@ -95,36 +95,39 @@ export default function Home() {
         <div className="page">
             <div className="container">
                 <header className="header">
-                    <h1>영상 비교 설문</h1>
+                    <h1>Video and Audio Perception Study</h1>
                     <p>
-                        본 연구는 개인의 음성이 딥페이크에 악용되는 것을 방지하기 위한 기술 개발을 목표로 하며,
-                        <br />
-                        영상과 음성의 일치 정도에 대한 인식을 조사하기 위한 설문입니다.
+                        In this study, you will watch short video clips and evaluate how well the lip movements match the audio.
+                        <br/>
+                        For each question, you will be shown multiple videos.
+                        <br/>
+                        Your task is to select the video in which the lip movements and speech are the most mismatched.
+                        <br/>
+                        This study is related to understanding how people perceive audio-visual consistency in videos.
+                        <br/>
+                        Please watch all videos carefully before making your selection.
                     </p>
                 </header>
 
                 <div className="notice">
-                    본 설문은 약 10분 정도 소요됩니다. 각 문항의 영상을 충분히 확인한 후 응답해주세요.
+                    Important guidelines:
+                    <br/>- Use headphones or speakers so you can clearly hear the audio
+                    <br/>- Complete the study in a quiet environment
+                    <br/>- Pay close attention to both the mouth movements and the speech
+                    <br/>- Some differences may be subtle, so please observe carefully
+                    <br/>
+                    <br/>
+                    The study takes approximately 10 minutes to complete.
                 </div>
 
                 <div className="info-box">
                     <div className="input-group">
-                        <label>소속</label>
+                        <label>Prolific ID</label>
                         <input
                             type="text"
                             value={affiliation}
                             onChange={(e) => setAffiliation(e.target.value)}
-                            placeholder="소속을 입력해주세요"
-                        />
-                    </div>
-
-                    <div className="input-group">
-                        <label>이름</label>
-                        <input
-                            type="text"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                            placeholder="이름을 입력해주세요"
+                            placeholder="Prolific ID"
                         />
                     </div>
                 </div>
@@ -142,7 +145,7 @@ export default function Home() {
 
                 <div className="submit-wrap">
                     <button onClick={submit} className="submit-btn">
-                        제출하기
+                        submit
                     </button>
                 </div>
             </div>
