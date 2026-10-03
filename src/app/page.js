@@ -35,7 +35,6 @@ export default function Home() {
     const [answers, setAnswers] = useState({});
     const [hovered, setHovered] = useState({});
     const [done, setDone] = useState(false);
-    const [name, setName] = useState("");
     const [affiliation, setAffiliation] = useState("");
 
     const select = (q, val) => {
@@ -47,7 +46,7 @@ export default function Home() {
     };
 
     const submit = async () => {
-        if (!name || !affiliation) {
+        if (!affiliation) {
             alert("Please enter your id");
             return;
         }
@@ -63,7 +62,6 @@ export default function Home() {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name,
                 affiliation,
                 answers
             }),
