@@ -95,26 +95,23 @@ export default function Home() {
         <div className="page">
             <div className="container">
                 <header className="header">
-                    <h1>Video and Audio Perception Study</h1>
+                    <h1>Talking-Head Video Lip-Sync Study</h1>
                     <p>
-                        In this study, you will watch short video clips and evaluate how well the lip movements match the audio.
+                        In this study, you will evaluate how well lip movements match speech in short talking-head video clips.
                         <br/>
-                        For each question, you will be shown multiple videos.
                         <br/>
-                        Your task is to select the video in which the lip movements and speech are the most mismatched.
+                        There are 10 questions. For each question, watch all four videos with the sound on and select the one video in which the lip movements match the speech least well. 
                         <br/>
-                        This study is related to understanding how people perceive audio-visual consistency in videos.
-                        <br/>
-                        Please watch all videos carefully before making your selection.
+                        Please base your choices on your own perception. No specialist knowledge is required.
                     </p>
                 </header>
 
                 <div className="notice">
                     Important guidelines:
-                    <br/>- Use headphones or speakers so you can clearly hear the audio
-                    <br/>- Complete the study in a quiet environment
-                    <br/>- Pay close attention to both the mouth movements and the speech
-                    <br/>- Some differences may be subtle, so please observe carefully
+                    <br/>- The study is expected to take 10–15 minutes. The reward for completing the study is US $2.00. Please participate in a quiet environment using a desktop or laptop computer and headphones or earphones.
+                    <br/>- Please complete the study attentively and follow the instructions. Submissions showing clear, objective evidence of consistently low effort throughout the study may be rejected without payment, in accordance with Prolific’s policies.
+                    <br/>- Payment does not depend on which videos you select. Honest differences in perception will not affect your payment.
+                    <br/>- Participation is voluntary, and you may stop at any time. If you experience playback problems or have questions, please contact the researcher through Prolific messages 
                     <br/>
                     <br/>
                     The study takes approximately 10 minutes to complete.
