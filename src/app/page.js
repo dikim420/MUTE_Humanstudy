@@ -105,7 +105,7 @@ export default function Home() {
                 </header>
 
                 <div className="notice">
-                        The study is expected to take 10–15 minutes. The reward for completing the study is US $2.00. 
+                        The study is expected to take 10 minutes. The reward for completing the study is US $2.00. 
                         <br/>
                         <br/>
                         Please participate in a quiet environment using a desktop or laptop computer and headphones or earphones.
