@@ -96,7 +96,9 @@ export default function Home() {
             <div className="container">
                 <header className="header">
                     <h1>Talking-Head Video Lip-Sync Study</h1>
-                    <p>
+                </header>
+
+                <div className="notice">
                         In this study, you will evaluate how well lip movements match speech in short talking-head video clips.
                         <br/>
                         <br/>
@@ -118,18 +120,6 @@ export default function Home() {
                         <br/>
                         Participation is voluntary, and you may stop at any time. If you experience playback problems or have questions, please contact the researcher through Prolific messages 
         
-                    </p>
-                </header>
-
-                <div className="notice">
-                    Important guidelines:
-                    <br/>- The study is expected to take 10–15 minutes. The reward for completing the study is US $2.00. Please participate in a quiet environment using a desktop or laptop computer and headphones or earphones.
-                    <br/>- Please complete the study attentively and follow the instructions. Submissions showing clear, objective evidence of consistently low effort throughout the study may be rejected without payment, in accordance with Prolific’s policies.
-                    <br/>- Payment does not depend on which videos you select. Honest differences in perception will not affect your payment.
-                    <br/>- Participation is voluntary, and you may stop at any time. If you experience playback problems or have questions, please contact the researcher through Prolific messages 
-                    <br/>
-                    <br/>
-                    The study takes approximately 10 minutes to complete.
                 </div>
 
                 <div className="info-box">
