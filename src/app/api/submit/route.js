@@ -20,7 +20,6 @@ export async function POST(req) {
                 values: [[
                     new Date().toISOString(),
                     body.affiliation,
-                    body.name,
                     body.answers[1],
                     body.answers[2],
                     body.answers[3],
