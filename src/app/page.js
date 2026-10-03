@@ -132,16 +132,16 @@ export default function Home() {
                     </div>
                 </div>
 
-                <Question q={1} v1="/ARO/0002_adv_inference.mp4" v2="/carlini/0002_adv_inference.mp4" v3="/ours/0002_adv_inference.mp4" v4="/SAGO/0002_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={2} v1="/SAGO/0005_adv_inference.mp4" v2="/carlini/0005_adv_inference.mp4" v3="/ARO/0005_adv_inference.mp4" v4="/ours/0005_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={3} v1="/ours/0008_adv_inference.mp4" v2="/SAGO/0008_adv_inference.mp4" v3="/ARO/0008_adv_inference.mp4" v4="/carlini/0008_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={4} v1="/SAGO/0009_adv_inference.mp4" v2="/carlini/0009_adv_inference.mp4" v3="/ours/0009_adv_inference.mp4" v4="/ARO/0009_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={5} v1="/ARO/0016_adv_inference.mp4" v2="/ours/0016_adv_inference.mp4" v3="/SAGO/0016_adv_inference.mp4" v4="/carlini/0016_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={6} v1="/carlini/0021_adv_inference.mp4" v2="/ARO/0021_adv_inference.mp4" v3="/SAGO/0021_adv_inference.mp4" v4="/ours/0021_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={7} v1="/ours/0027_adv_inference.mp4" v2="/carlini/0027_adv_inference.mp4" v3="/ARO/0027_adv_inference.mp4" v4="/SAGO/0027_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={8} v1="/SAGO/0033_adv_inference.mp4" v2="/ours/0033_adv_inference.mp4" v3="/carlini/0033_adv_inference.mp4" v4="/ARO/0033_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={9} v1="/ARO/0039_adv_inference.mp4" v2="/SAGO/0039_adv_inference.mp4" v3="/carlini/0039_adv_inference.mp4" v4="/ours/0039_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
-                <Question q={10} v1="/carlini/0042_adv_inference.mp4" v2="/SAGO/0042_adv_inference.mp4" v3="/ours/0042_adv_inference.mp4" v4="/ARO/0042_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={1} v1="video/ARO/0024_adv_inference.mp4" v2="video/CAF/0024_adv_inference.mp4" v3="video/ours/0024_adv_inference.mp4" v4="video/SAGO/0024_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={2} v1="video/SAGO/0005_adv_inference.mp4" v2="video/CAF/0005_adv_inference.mp4" v3="video/ARO/0005_adv_inference.mp4" v4="video/ours/0005_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={3} v1="video/ours/0086_adv_inference.mp4" v2="video/SAGO/0086_adv_inference.mp4" v3="video/ARO/0086_adv_inference.mp4" v4="video/CAF/0086_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={4} v1="video/SAGO/0050_adv_inference.mp4" v2="video/CAF/0050_adv_inference.mp4" v3="video/ours/0050_adv_inference.mp4" v4="video/ARO/0050_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={5} v1="video/ARO/0026_adv_inference.mp4" v2="video/ours/0026_adv_inference.mp4" v3="video/SAGO/0026_adv_inference.mp4" v4="video/CAF/0026_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={6} v1="video/CAF/0021_adv_inference.mp4" v2="video/ARO/0021_adv_inference.mp4" v3="video/SAGO/0021_adv_inference.mp4" v4="video/ours/0021_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={7} v1="video/ours/0027_adv_inference.mp4" v2="video/CAF/0027_adv_inference.mp4" v3="video/ARO/0027_adv_inference.mp4" v4="video/SAGO/0027_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={8} v1="video/SAGO/0003_adv_inference.mp4" v2="video/ours/0003_adv_inference.mp4" v3="video/CAF/0003_adv_inference.mp4" v4="video/ARO/0003_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={9} v1="video/ARO/0064_adv_inference.mp4" v2="video/SAGO/0064_adv_inference.mp4" v3="video/CAF/0064_adv_inference.mp4" v4="video/ours/0064_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
+                <Question q={10} v1="video/CAF/0044_adv_inference.mp4" v2="video/SAGO/0044_adv_inference.mp4" v3="video/ours/0044_adv_inference.mp4" v4="video/ARO/0044_adv_inference.mp4" answers={answers} hovered={hovered} select={select} hover={hover} />
 
                 <div className="submit-wrap">
                     <button onClick={submit} className="submit-btn">
